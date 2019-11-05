@@ -1,0 +1,129 @@
+
+.fullscreen{
+  height: 100vh;
+  width:100vw;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1{
+font-family: 'Reenie Beanie', cursive;
+}
+
+/*extra small  (small phones)*/
+@media only screen and (max-width: 600px){
+  h1{
+    font-size: 50px;
+  }
+}
+
+/* small (large phones) */
+@media only screen and (min-width: 600px)
+{
+  h1{
+    font-size: 60px;
+  }
+
+}
+
+/*medium (tablets)*/
+@media only screen and (min-width: 768px){
+  h1{
+    font-size: 70px;
+  }
+
+}
+
+/* large (small computers)*/
+@media only screen and (min-width: 992px)
+{
+  h1{
+    font-size: 90px;
+  }
+}
+
+/* extra large  (large computers) */
+@media only screen and (min-width: 1200px)
+{
+  h1{
+    font-size: 110px;
+  }
+
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: grey;
+}
+
+
+div.artwork img {
+height: 50vh;
+width: auto;
+}
+
+div.artwork{
+  text-align: center;
+  display: block;
+}
+
+p{
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 5vh;
+}
+
+.post{
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 5vh;
+    margin: 50px;
+}
+
+.text{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 3vh;
+}
+
+.date{
+  color: grey;
+}
+
+form{
+ display:flex;
+ flex-direction: column;
+ font-family: 'Reenie Beanie', cursive;
+ justify-content: space-around;
+ width: 100%;
+ margin: 30vw;
+ font-size: 5vh;
+}
+
+input{
+  height: 5vh;
+  margin-top: 3vh;
+}
+
+textarea{
+  height: 20vh;
+  margin-top: 3vh;
+
+}
+
+button{
+  padding: 0;
+  border: none;
+  background: none;
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 5vh;
+  margin: 3vh;
+
+}
+
+button:hover{
+  color: grey;
+}
