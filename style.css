@@ -142,6 +142,6 @@ button:hover{
   margin: 10px;
 }
 
-.special{
-  overflow: hidden;
+.commentbox{
+  overflow: scroll;
 }
