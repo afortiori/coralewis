@@ -141,3 +141,7 @@ button:hover{
 .color{
   margin: 10px;
 }
+
+.special{
+  overflow: hidden;
+}
