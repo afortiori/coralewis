@@ -141,8 +141,3 @@ button:hover{
 .color{
   margin: 10px;
 }
-
-.commentboxscroll{
-  overflow: scroll;
-  height: 100%;
-}
