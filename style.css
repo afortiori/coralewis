@@ -65,6 +65,9 @@ a:hover {
   color: grey;
 }
 
+.special{
+  text-decoration: underline;
+}
 
 div.artwork img {
 height: 50vh;
