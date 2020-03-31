@@ -144,4 +144,5 @@ button:hover{
 
 .commentboxscroll{
   overflow: scroll;
+  height: 100%;
 }
