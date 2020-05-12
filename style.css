@@ -6,7 +6,9 @@
   align-items: center;
   justify-content: center;
 }
-
+.special_new{
+  overflow: auto;
+}
 .title_page {
   height: 100vh;
 }
